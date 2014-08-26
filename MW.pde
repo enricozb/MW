@@ -80,7 +80,7 @@ void draw()
 void initMinim()
 {
 	minim = new Minim(this);
-	song = minim.loadFile("bgs.wav");
+	song = minim.loadFile("bg.mp3");
 	song.play();
 	song.loop();
 }
